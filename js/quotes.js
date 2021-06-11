@@ -45,8 +45,6 @@ const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
-// Math.random()은 0~1사이의 소숫점16자리의 실수
-// Math.floor()는 소숫점을 내림해주는 것.
 
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
